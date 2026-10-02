@@ -1,0 +1,319 @@
+{
+  "@@locale": "en",
+  "appTitle": "Tailor Lessons",
+  "navTracker": "Tracker",
+  "navSchedule": "Schedule",
+  "navSettings": "Settings",
+  "sectionRound": "Round",
+  "editRound": "Edit round",
+  "scheduleLesson": "Schedule lesson",
+  "comingUpEyebrow": "Coming Up",
+  "upcomingLessons": "Upcoming lessons",
+  "noUpcomingLessons": "No lessons scheduled yet. Tap \"Schedule lesson\" to add one.",
+  "paymentBannerEyebrow": "ROUND COMPLETE • RENEWAL DUE",
+  "paymentBannerTitle": "Time to pay for the next round",
+  "paymentBannerBody": "You’ve completed {completed} of {total} lessons in Round {round}. Settle up to start Round {next}.",
+  "@paymentBannerBody": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "round": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      }
+    }
+  },
+  "markPaidAndStartNew": "Mark as paid & start new round",
+  "activeRoundEyebrow": "Active Round",
+  "roundTitle": "Round {number}",
+  "@roundTitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "roundCompleteTitle": "Round {number} Complete",
+  "@roundCompleteTitle": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "startedLabel": "STARTED",
+  "perforationLabel": "PERFORATION",
+  "lessonsCompletedOf": "{completed} of {total} lessons completed",
+  "@lessonsCompletedOf": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "roundSizeEyebrow": "Round Size",
+  "defaultLessonsPerRound": "Default lessons per round",
+  "roundSizeHelp": "How many lessons make up a new round. Change this any time — it only affects rounds started after the change. (To edit an existing round, open it below.)",
+  "lessonsPerRoundLabel": "Lessons per round",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "invalidWholeNumber": "Enter a whole number greater than 0",
+  "savedFromNextRound": "Saved. Applies from the next round onward.",
+  "appearanceEyebrow": "Appearance",
+  "themeTitle": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "languageEyebrow": "Language",
+  "languageTitle": "App language",
+  "repeatsEyebrow": "Repeats",
+  "recurringSchedulesTitle": "Recurring schedules",
+  "addRecurringSchedule": "Add recurring schedule",
+  "recurringSchedulesHelp": "Automatically schedules lessons ahead of time on the days and time you pick.",
+  "noRecurringSchedules": "No recurring schedules yet.",
+  "historyEyebrow": "History",
+  "roundsArchive": "Rounds archive",
+  "roundsArchiveHelp": "Tap a round to edit its lesson count or manage its lessons.",
+  "atTime": "At {time}",
+  "@atTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "roundShort": "R{number}",
+  "@roundShort": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "roundArchiveSummary": "Started {date} · {completed}/{total} lessons",
+  "@roundArchiveSummary": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "paidOnSuffix": " · paid {date}",
+  "@paidOnSuffix": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentDue": "PAYMENT DUE",
+  "roundUpdated": "Round updated.",
+  "roundNoLongerExists": "This round no longer exists.",
+  "thisRoundEyebrow": "This Round",
+  "lessonsInRound": "Lessons in Round {number}",
+  "@lessonsInRound": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "roundPricingHelp": "Change this if the tailor’s pricing changed mid-cycle. Only affects this round.",
+  "lessonsRequiredLabel": "Lessons required",
+  "markedAsPaid": "Marked as paid",
+  "notYetPaid": "Not yet paid",
+  "startedOn": "Started {date}",
+  "@startedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "lessonsEyebrow": "Lessons",
+  "allLessonsInRound": "All lessons in this round",
+  "noLessonsInRound": "No lessons scheduled in this round yet.",
+  "roundDetailHelp": "Tap any lesson to mark it visited/missed, reschedule it, or fold a missed one into an upcoming slot. Long-press to select several lessons to delete or set a reminder on.",
+  "reminderAtStart": "At start",
+  "reminderMinutesBefore": "{minutes} min before",
+  "@reminderMinutesBefore": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "reminderHoursBefore": "{hours, plural, =1{1 hour before} other{{hours} hours before}}",
+  "@reminderHoursBefore": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "reminderDaysBefore": "{days, plural, =1{1 day before} other{{days} days before}}",
+  "@reminderDaysBefore": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "defaultReminderTitle": "Tailoring lesson",
+  "lessonReminder": "Lesson reminder",
+  "remindForLessons": "{count, plural, =1{Remind for 1 lesson} other{Remind for {count} lessons}}",
+  "@remindForLessons": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "alarmTitleLabel": "Alarm title",
+  "ringLabel": "Ring",
+  "remove": "Remove",
+  "removeAll": "Remove all",
+  "newRecurringSchedule": "New recurring schedule",
+  "editSchedule": "Edit schedule",
+  "repeatsOn": "Repeats on",
+  "scheduleALesson": "Schedule a lesson",
+  "noteOptional": "Note (optional)",
+  "scheduleAction": "Schedule",
+  "markAsVisited": "Mark as visited",
+  "markAsMissed": "Mark as missed",
+  "rescheduleToNewDate": "Reschedule to a new date",
+  "setReminder": "Set reminder",
+  "editReminder": "Edit reminder",
+  "replaceUpcoming": "Replace an upcoming session with this one",
+  "replaceUpcomingHelp": "Fold this missed lesson into an already-scheduled one, instead of adding an extra slot",
+  "deleteLesson": "Delete lesson",
+  "noMergeCandidates": "No upcoming lessons to merge into yet. Schedule one first, then merge this missed lesson into it.",
+  "cancelSelection": "Cancel selection",
+  "selectedCount": "{count} selected",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectAll": "Select all",
+  "deselectAll": "Deselect all",
+  "deleteLessonsTitle": "{count, plural, =1{Delete 1 lesson?} other{Delete {count} lessons?}}",
+  "@deleteLessonsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cannotBeUndone": "This can’t be undone.",
+  "oneOffLesson": "One-off lesson",
+  "oneOffLessonHelp": "Add a single lesson on a specific date",
+  "recurringSchedule": "Recurring schedule",
+  "recurringScheduleHelp": "Repeat on chosen days and time, automatically",
+  "selectedDayEyebrow": "Selected Day",
+  "lessonsOnThisDay": "Lessons on this day",
+  "noLessonsOnThisDay": "No lessons on this day.",
+  "statusScheduled": "Scheduled",
+  "statusVisited": "Visited",
+  "statusMissed": "Missed",
+  "chipRecurring": "RECURRING",
+  "chipAlarm": "ALARM",
+  "chipAlarmLead": "ALARM −{lead}",
+  "@chipAlarmLead": {
+    "placeholders": {
+      "lead": {
+        "type": "String"
+      }
+    }
+  },
+  "leadDays": "{days}D",
+  "@leadDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "leadHours": "{hours}H",
+  "@leadHours": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "leadMinutes": "{minutes}M",
+  "@leadMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonStamp": "L{number}",
+  "@lessonStamp": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "lessonReminderEyebrow": "LESSON REMINDER",
+  "startingNow": "Starting now",
+  "startsInMinutes": "Starts in {minutes} min",
+  "@startsInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "startsInHoursMinutes": "Starts in {hours} h {minutes} min",
+  "@startsInHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "startsInDays": "{days, plural, =1{Starts in 1 day} other{Starts in {days} days}}",
+  "@startsInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dismiss": "Dismiss",
+  "notificationBody": "Lesson at {time}",
+  "@notificationBody": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationChannelName": "Lesson alarms",
+  "notificationChannelDescription": "Full-screen alarms for lesson reminders"
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-surface": "#1c1c18", "surface-container-highest": "#e5e2dc", "on-background": "#1c1c18", "surface-tint": "#565f6f", "on-tertiary-fixed-variant": "#59431b", "primary-fixed-dim": "#bec7da", "on-secondary-fixed-variant": "#763212", "on-secondary-fixed": "#360f00", "on-primary-fixed-variant": "#3e4757", "inverse-primary": "#bec7da", "tertiary-container": "#312000", "on-tertiary-fixed": "#271900", "background": "#fcf9f3", "error-container": "#ffdad6", "on-error": "#ffffff", "surface": "#fcf9f3", "outline": "#75777c", "tertiary-fixed": "#ffdeaa", "on-primary": "#ffffff", "primary": "#050e1c", "surface-dim": "#dcdad4", "error": "#ba1a1a", "surface-container-high": "#ebe8e2", "tertiary-fixed-dim": "#e2c28f", "primary-container": "#1b2432", "on-primary-fixed": "#131c2a", "on-error-container": "#93000a", "secondary-container": "#fe9e75", "tertiary": "#160c00", "surface-variant": "#e5e2dc", "on-surface-variant": "#45474c", "on-secondary-container": "#773313", "surface-bright": "#fcf9f3", "secondary-fixed-dim": "#ffb597", "on-tertiary-container": "#a28658", "on-secondary": "#ffffff", "inverse-surface": "#31312d", "primary-fixed": "#dae3f6", "surface-container-low": "#f6f3ed", "surface-container": "#f0eee8", "secondary-fixed": "#ffdbcd", "outline-variant": "#c5c6cc", "inverse-on-surface": "#f3f0ea", "on-tertiary": "#ffffff", "on-primary-container": "#828b9d", "surface-container-lowest": "#ffffff", "secondary": "#944927" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xl": "3.5rem", "space-sm": "0.75rem", "gutter-mobile": "1rem", "margin": "3rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "space-xs": "0.375rem", "space-md": "1.25rem", "space-lg": "2rem" }, "fontFamily": { "headline-sm": ["Newsreader"], "headline-lg-mobile": ["Newsreader"], "display-lg": ["Newsreader"], "headline-lg": ["Newsreader"], "body-lg": ["Manrope"], "body-md": ["Manrope"], "label-md": ["Manrope"], "label-lg": ["Manrope"], "display-lg-mobile": ["Newsreader"], "label-sm": ["Manrope"], "body-sm": ["Manrope"], "headline-md": ["Newsreader"] }, "fontSize": { "headline-sm": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "500" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "400" }], "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.03em", "fontWeight": "600" }], "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "500" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><img alt="Atelier Tailoring Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm-A5dvy-OYUCFhiX6JMST0FfeegN-RSVGDXhu6ju_bLRwdopoj7TToNOru0lLOVrdzlU_1izJKn7ZXK_pWLzqzdBLAv2FUX-pE18Rcq-BiKP_GZ5GzXFB6zT--bqLhgGkS3jX3OrL8sD0zlHSxlDwqJgdlP-saDL-yAwLTkUtI9men0YvAQTTNG38oLZcI903PaqMFbdCL6-oj013XheoZfZ7mk-OGyuKSmcp6KjKN9lAwsQA7ZM54w"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none">Atelier Stitch</span><span class="font-label-sm text-label-sm tracking-wider uppercase text-on-surface-variant">Schedule</span></div></div><div class="flex items-center gap-space-xs"><button aria-label="Profile" class="w-11 h-11 flex items-center justify-center rounded-full p-0.5 transition-opacity hover:opacity-80"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXnj1j4DxUTxvs8_Q23umFGroumFyLRWhLapFB6aYYf_VyJWIR6tmg-ENu3Up32zdv1IA8rIpuvlwOujGfREpJLl6ongM8BLkIe2qs3KuUiEeCpduOxPsI2Uu2i2P2HJ8ogpMPafSApchBWI5F1WwRqbMbqD20CQZiFnH8JyrvYU36pEWqr4DNZ6NTj8VdxpKuW9RS70H8_spFTf4d7VFsnB7xnZ7olSyNHzqExIQqMTaepF87ejuw_g"/></button></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full px-gutter-mobile gap-space-md selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- Atelier Status & Sewing Bench Availability -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-xl shadow-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-secondary"></span>
+</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-primary leading-tight">Savile Workshop Open</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">3 of 8 bespoke cutting benches free</span>
+</div>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-high px-2 py-1 rounded-full text-primary">
+<span class="material-symbols-outlined text-[15px]">schedule</span>
+<span class="font-label-sm text-label-sm">08:30 – 19:00</span>
+</div>
+</div>
+<!-- Interactive Month Calendar Card -->
+<div class="flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-sm gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Atelier Schedule</span>
+<h2 class="font-headline-sm text-headline-sm text-primary" id="calendar-month-label">October 2024</h2>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Previous month" class="w-9 h-9 flex items-center justify-center rounded-full bg-surface-container hover:bg-surface-container-high text-primary transition-colors" id="prev-month-btn">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button aria-label="Next month" class="w-9 h-9 flex items-center justify-center rounded-full bg-surface-container hover:bg-surface-container-high text-primary transition-colors" id="next-month-btn">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Day Header -->
+<div class="grid grid-cols-7 text-center font-label-sm text-label-sm text-on-surface-variant pt-1">
+<span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+</div>
+<!-- Calendar Grid -->
+<div class="grid grid-cols-7 gap-y-1.5 gap-x-1 text-center font-body-sm text-body-sm">
+<!-- Week 1 -->
+<div class="py-1 text-on-surface-variant/40">30</div>
+<div class="py-1 text-primary">1</div>
+<div class="py-1 text-primary">2</div>
+<div class="relative py-1 text-primary font-label-md flex flex-col items-center">
+<span>3</span>
+<span class="h-1.5 w-1.5 rounded-full bg-on-tertiary-container mt-0.5" title="Attended Lesson"></span>
+</div>
+<div class="py-1 text-primary">4</div>
+<div class="py-1 text-primary">5</div>
+<div class="py-1 text-on-surface-variant">6</div>
+<!-- Week 2 -->
+<div class="py-1 text-primary">7</div>
+<div class="relative py-1 text-primary font-label-md flex flex-col items-center">
+<span>8</span>
+<span class="h-1.5 w-1.5 rounded-full bg-on-tertiary-container mt-0.5" title="Attended Lesson"></span>
+</div>
+<div class="py-1 text-primary">9</div>
+<div class="relative py-1 text-primary font-label-md flex flex-col items-center">
+<span>10</span>
+<span class="h-1.5 w-1.5 rounded-full bg-on-tertiary-container mt-0.5" title="Attended Lesson"></span>
+</div>
+<div class="py-1 text-primary">11</div>
+<div class="py-1 text-primary">12</div>
+<div class="py-1 text-on-surface-variant">13</div>
+<!-- Week 3 -->
+<div class="py-1 text-primary">14</div>
+<div class="py-1 text-primary">15</div>
+<div class="py-1 text-primary">16</div>
+<div class="relative py-1 text-primary font-label-md flex flex-col items-center">
+<span>17</span>
+<span class="h-1.5 w-1.5 rounded-full bg-on-tertiary-container mt-0.5" title="Attended Lesson"></span>
+</div>
+<div class="py-1 text-primary">18</div>
+<div class="py-1 text-primary">19</div>
+<div class="py-1 text-on-surface-variant">20</div>
+<!-- Week 4 (Active selection: Oct 24) -->
+<div class="py-1 text-primary">21</div>
+<div class="py-1 text-primary">22</div>
+<div class="py-1 text-primary">23</div>
+<div class="relative py-1 bg-primary text-on-primary rounded-lg flex flex-col items-center shadow-sm">
+<span class="font-label-md">24</span>
+<span class="h-1.5 w-1.5 rounded-full bg-secondary-container mt-0.5" title="Next Scheduled Lesson"></span>
+</div>
+<div class="py-1 text-primary">25</div>
+<div class="relative py-1 text-primary flex flex-col items-center">
+<span>26</span>
+<span class="h-1.5 w-1.5 rounded-full bg-secondary mt-0.5" title="Scheduled Atelier Session"></span>
+</div>
+<div class="py-1 text-on-surface-variant">27</div>
+<!-- Week 5 -->
+<div class="py-1 text-primary">28</div>
+<div class="py-1 text-primary">29</div>
+<div class="py-1 text-primary">30</div>
+<div class="relative py-1 text-primary flex flex-col items-center">
+<span>31</span>
+<span class="h-1.5 w-1.5 rounded-full bg-secondary mt-0.5" title="Scheduled Atelier Session"></span>
+</div>
+<div class="py-1 text-on-surface-variant/40">1</div>
+<div class="py-1 text-on-surface-variant/40">2</div>
+<div class="py-1 text-on-surface-variant/40">3</div>
+</div>
+<!-- Legend -->
+<div class="flex items-center justify-between pt-space-xs bg-surface-container-low px-space-sm py-1.5 rounded-lg mt-1">
+<div class="flex items-center gap-1.5">
+<span class="h-2 w-2 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Completed (Stitched)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="h-2 w-2 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Reserved Slot</span>
+</div>
+</div>
+</div>
+<!-- Primary CTA: Schedule Lesson -->
+<button class="w-full h-13 py-3 px-space-md bg-primary text-on-primary font-label-lg text-label-lg rounded-xl shadow-md hover:bg-primary-container transition-all flex items-center justify-between active:scale-[0.99]" id="open-booking-drawer">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-secondary-fixed">content_cut</span>
+<span>Schedule Next Atelier Lesson</span>
+</div>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<!-- Upcoming Lesson Card -->
+<div class="flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-sm gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-fixed text-on-secondary-fixed px-2.5 py-0.5 rounded-full font-label-sm text-label-sm">Upcoming Session</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">timer</span> In 3 days
+      </span>
+</div>
+<div class="flex items-start gap-space-sm">
+<img class="w-14 h-14 rounded-lg object-cover flex-shrink-0 shadow-sm" data-alt="A master bespoke tailor with silvered hair and round wire spectacles inspecting a wool fabric canvas in a sunlit Savile Row workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWmvbf4jA693XsveYqTV8xRE8nF757qejS8Xf0vX7FoaaWYXTSu4_VgZmcx1aSIjPR4lFwVPC8ykUuVHgCE0UX4WKRUnJZZBIt6Msfk1jHsVCieF3dG0UIT02XwqR4jDJC1cBdlqXAFFXJ6YyEkaI0zxmlik7oZweTq0TmihRpskmCU6as_pBKoRHz7rF8ybP8bkPRgzJi0eZEjkM7Q_Y3QQqxX_tfFmm6tE8QCPaXIDZXkT604Puu0A"/>
+<div class="flex flex-col min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-primary leading-tight">Waistband Fitting &amp; Hand-stitched Buttonholes</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Mentor: Master Henri Gautier</p>
+</div>
+</div>
+<!-- Session Spec Sheet -->
+<div class="grid grid-cols-2 gap-2 bg-surface-container-low p-space-sm rounded-lg text-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">event</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Date &amp; Time</span>
+<span class="font-label-md text-label-md truncate">Thu, Oct 24 • 14:00</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">handyman</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Location</span>
+<span class="font-label-md text-label-md truncate">Studio Table #4</span>
+</div>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<button class="h-10 px-space-xs bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-md text-label-md rounded-lg transition-colors flex items-center justify-center gap-1.5" id="add-to-calendar-btn">
+<span class="material-symbols-outlined text-[17px]">bookmark_add</span>
+<span>Add to Cal</span>
+</button>
+<button class="h-10 px-space-xs bg-surface-container hover:bg-surface-container-high text-secondary font-label-md text-label-md rounded-lg transition-colors flex items-center justify-center gap-1.5" id="reschedule-btn">
+<span class="material-symbols-outlined text-[17px]">edit_calendar</span>
+<span>Reschedule</span>
+</button>
+</div>
+</div>
+<!-- Past Attended Lessons & Milestone Logger -->
+<div class="flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-sm gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-primary">Attended Sessions</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">4 completed towards Master Vest diploma</span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[22px]">verified</span>
+</div>
+<!-- Past Item 1 -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-lg">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">architecture</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-primary truncate">Pattern Drafting: Trouser Rise &amp; Pleat</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Oct 17 • 2.5 hrs • Master Henri</span>
+</div>
+</div>
+<button class="ml-2 px-2.5 py-1 bg-surface-container-highest text-primary font-label-sm text-label-sm rounded-md hover:bg-surface-dim transition-colors flex items-center gap-1 flex-shrink-0">
+<span class="material-symbols-outlined text-[14px]">photo_camera</span>
+<span>Log Photo</span>
+</button>
+</div>
+<!-- Past Item 2 -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-lg">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">strikethrough_s</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-primary truncate">Basting Canvas &amp; Horsehair Chest Piece</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Oct 10 • 3.0 hrs • Master Jean</span>
+</div>
+</div>
+<span class="ml-2 font-label-sm text-label-sm text-on-tertiary-container bg-surface-container-highest px-2 py-0.5 rounded flex items-center gap-1 flex-shrink-0">
+<span class="material-symbols-outlined text-[13px]">check_circle</span> 2 Photos
+      </span>
+</div>
+<!-- Visual Portfolio Strip -->
+<div class="flex flex-col gap-1.5 pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Milestone Gallery</span>
+<div class="grid grid-cols-3 gap-2">
+<div class="relative rounded-lg overflow-hidden h-20 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Extreme close-up of handmade milanese buttonhole sewn with silk thread on navy bespoke wool suit lapel with tailor chalk guides" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHkTVVHBvBNCxE1_ooEZvW5-hKnop-Y-YaT1KZUxu4Ql6txUDrHIRnVk_Yl7xUUYDI1bqtMCA6tulVDm0hexjHJPiEB6YJUq9l6_xmOkZkVNwyyCgu88QEZNKkY4itfR7-fMxSuztQ3bydxGgV_6h6-8WBdNq7wHj3AHl6ZUD-rppEIRR0E6mDteApdMXmvAVSzsB7FkXudNZuyZSLIvnW8QHavKD0zzK1fYLmbfAFYfwTmhWyEGNhDQ"/>
+<span class="absolute bottom-1 left-1 bg-primary/80 text-on-primary font-label-sm text-label-sm px-1 rounded">Lapel</span>
+</div>
+<div class="relative rounded-lg overflow-hidden h-20 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Hand pressing of structured horsehair canvas coat chest piece using heavy antique tailor iron and damp pressing cloth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV7J8ZECvuGeBc1945mxxjUvlvEeQB_Er2PoLMDsJh5XXyNVjmnX72X9ZBon6ORxFRCzx6FrKPnXRSkqRxmX8eYL8xC9BV2Ik9S2UJf2T0GId48th5WJch8OrXJTrOOM8uhSXZsDmwMfixDIVzfZBF9FiA5u9a6JIbqP62EiUoBp-y96XqpaS4VfPjmDuCl5Uqx1ynC7Ws10cMQG63UPP0s84J-xbMrg1CVNSmTexrTAvrW8O9Ea3c5w"/>
+<span class="absolute bottom-1 left-1 bg-primary/80 text-on-primary font-label-sm text-label-sm px-1 rounded">Canvas</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-surface-container-high rounded-lg h-20 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[24px]">add_a_photo</span>
+<span class="font-label-sm text-label-sm mt-0.5">Upload</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Drawer Booking Sheet (Hidden by default, toggled via JS) -->
+<div class="fixed inset-x-0 bottom-0 z-50 transform translate-y-full transition-transform duration-300 ease-out bg-surface-container-lowest rounded-t-xl shadow-xl p-space-md max-w-lg mx-auto" id="booking-drawer">
+<div class="w-12 h-1 bg-outline-variant rounded-full mx-auto mb-space-sm"></div>
+<div class="flex items-center justify-between pb-2">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Book Atelier Bench</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Choose your tailored bench session</span>
+</div>
+<button aria-label="Close booking modal" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary" id="close-booking-drawer">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Slots Selection -->
+<div class="flex flex-col gap-2.5 my-space-sm">
+<label class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-lg cursor-pointer hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-2.5">
+<input checked="" class="accent-secondary" name="atelier-slot" type="radio"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Thursday, Oct 31 • 14:00</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Table #2 (Rotary Shear &amp; Steam Press)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container-highest px-2 py-0.5 rounded text-primary">Available</span>
+</label>
+<label class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-lg cursor-pointer hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-2.5">
+<input class="accent-secondary" name="atelier-slot" type="radio"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Saturday, Nov 02 • 10:30</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Table #4 (Master Jean Overseeing)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm bg-surface-container-highest px-2 py-0.5 rounded text-primary">Available</span>
+</label>
+<label class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-lg cursor-pointer hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-2.5">
+<input class="accent-secondary" name="atelier-slot" type="radio"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Tuesday, Nov 05 • 16:00</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Table #1 (Pocketing &amp; Basting Bench)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded">1 bench left</span>
+</label>
+</div>
+<!-- Confirm CTA -->
+<button class="w-full h-12 bg-secondary text-on-secondary font-label-lg text-label-lg rounded-lg shadow-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2" id="confirm-booking-btn">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Confirm Bench Reservation</span>
+</button>
+</div>
+<!-- Subtle Backdrop for Drawer -->
+<div class="fixed inset-0 bg-primary/40 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300" id="drawer-backdrop"></div>
+<!-- Notification Toast (Delight microinteraction) -->
+<div class="fixed top-20 left-1/2 transform -translate-x-1/2 z-50 bg-primary text-on-primary px-4 py-2.5 rounded-full shadow-xl flex items-center gap-2 transition-all duration-300 pointer-events-none opacity-0 scale-95" id="atelier-toast">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">check_circle</span>
+<span class="font-label-md text-label-md" id="toast-text">Added to Atelier Calendar</span>
+</div>
+</div>
+<script>
+  (function() {
+    const openDrawerBtn = document.getElementById('open-booking-drawer');
+    const closeDrawerBtn = document.getElementById('close-booking-drawer');
+    const drawer = document.getElementById('booking-drawer');
+    const backdrop = document.getElementById('drawer-backdrop');
+    const confirmBtn = document.getElementById('confirm-booking-btn');
+    const addCalBtn = document.getElementById('add-to-calendar-btn');
+    const toast = document.getElementById('atelier-toast');
+    const toastText = document.getElementById('toast-text');
+
+    function showToast(msg) {
+      if (!toast || !toastText) return;
+      toastText.textContent = msg;
+      toast.classList.remove('opacity-0', 'scale-95');
+      toast.classList.add('opacity-100', 'scale-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100', 'scale-100');
+        toast.classList.add('opacity-0', 'scale-95');
+      }, 2600);
+    }
+
+    function toggleDrawer(open) {
+      if (open) {
+        drawer.classList.remove('translate-y-full');
+        backdrop.classList.remove('hidden');
+        setTimeout(() => backdrop.classList.add('opacity-100'), 10);
+      } else {
+        drawer.classList.add('translate-y-full');
+        backdrop.classList.remove('opacity-100');
+        setTimeout(() => backdrop.classList.add('hidden'), 300);
+      }
+    }
+
+    if (openDrawerBtn) openDrawerBtn.addEventListener('click', () => toggleDrawer(true));
+    if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', () => toggleDrawer(false));
+    if (backdrop) backdrop.addEventListener('click', () => toggleDrawer(false));
+
+    if (confirmBtn) {
+      confirmBtn.addEventListener('click', () => {
+        toggleDrawer(false);
+        showToast("Bench Confirmed: Table #2 Reserved");
+      });
+    }
+
+    if (addCalBtn) {
+      addCalBtn.addEventListener('click', () => {
+        showToast("Session synced to your personal calendar");
+      });
+    }
+
+    const rescheduleBtn = document.getElementById('reschedule-btn');
+    if (rescheduleBtn) {
+      rescheduleBtn.addEventListener('click', () => toggleDrawer(true));
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-2px_12px_rgba(27,36,50,0.04)]" data-active-classes="text-secondary font-label-md"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="tracker" href="#"><span class="material-symbols-outlined text-[22px]">approval</span><span class="font-label-sm text-label-sm">Tracker</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 transition-colors text-secondary font-label-md" data-path="schedule" href="#"><span class="material-symbols-outlined text-[22px]">calendar_today</span><span class="font-label-sm text-label-sm">Schedule</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="curriculum" href="#"><span class="material-symbols-outlined text-[22px]">menu_book</span><span class="font-label-sm text-label-sm">Curriculum</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="payments" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm">Payments</span></a></div></nav></body></html>
